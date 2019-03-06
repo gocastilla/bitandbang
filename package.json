@@ -1,20 +1,20 @@
 {
-  "name": "carlosazaustre",
-  "version": "1.0.1",
-  "description": "A personal card for Carlos Azaustre (@carlosazaustre)",
+  "name": "alodev",
+  "version": "1.0.0",
+  "description": "A personal card for Álvaro Quirós (@alodev)",
   "main": "index.js",
   "bin": {
-    "carlosazaustre": "./bin/card.js"
+    "alodev": "./bin/card.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/carlosazaustre/bitandbang.git"
+    "url": "https://github.com/alo/bitandbang.git"
   },
   "scripts": {
     "lint": "standard"
   },
   "keywords": [],
-  "author": "Carlos Azaustre <cazaustre@gmail.com> (https://carlosazaustre.es)",
+  "author": "Álvaro Quirós <alvaro.quiros@gmail.com> (https://alo.dev)",
   "license": "MIT",
   "dependencies": {
     "boxen": "^2.1.0",
