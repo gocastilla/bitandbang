@@ -1,5 +1,5 @@
 It's me, alo!
-> based in [@bitandbang](https://github.com/bnb/bitandbang) work and [@alo](https://github.com/alo/bitandbang)
+> based in [@bitandbang](https://github.com/bnb/bitandbang) work and [@carlosazaustre](https://github.com/carlosazaustre/bitandbang)
 
 # Usage
 Via npx:

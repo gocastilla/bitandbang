@@ -9,13 +9,15 @@ var boxen = require('boxen')
 let options = {
   padding: 1,
   margin: 1,
-  borderStyle: 'double-single'
+  borderStyle: 'single',
+  borderColor: '#FD6DC0'
 }
 // Text + chalk definitions
 let data = {
   'name': chalk.white.bold('Álvaro Quirós'),
   'handle': chalk.yellow('@alodev'),
-  'work': chalk.white('💻 Frontend Lead @ Coderty \n🚀 In love with runnerty.io'),
+  'work': chalk.white('Frontend Lead @ Coderty \nIn love with '),
+  'runnerty': chalk.yellow('https://runnerty.dev'),
   'twitter': chalk.yellow('https://twitter.com/alodev'),
   'github': chalk.yellow('https://github.com/alo'),
   'linkedin': chalk.yellow('https://linkedin.com/in/alodev'),
@@ -29,14 +31,14 @@ let data = {
 }
 
 // Actual strings we're going to output
-var newline = '\n'
-var heading = `${data.name} (${data.handle})`
-var working = `${data.work}`
-var twittering = `${data.labelTwitter}  ${data.twitter}`
-var githubing = `${data.labelGitHub}  ${data.github}`
-var linkedining = `${data.labelLinkedIn}  ${data.linkedin}`
-var webing = `${data.labelWeb}  ${data.web}`
-var carding = `${data.labelCard}  ${data.npx}`
+const newline = '\n';
+const heading = `${data.name} (${data.handle})`;
+const working = `${data.work} ${data.runnerty}`;
+const twittering = `${data.labelTwitter}  ${data.twitter}`;
+const githubing = `${data.labelGitHub}  ${data.github}`;
+const linkedining = `${data.labelLinkedIn}  ${data.linkedin}`;
+const webing = `${data.labelWeb}  ${data.web}`;
+const carding = `${data.labelCard}  ${data.npx}`;
 
 // Put all our output together into a single variable so we can use boxen effectively
 let output = heading + newline +
